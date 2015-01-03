@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Mine Sweeper Game</title>
+		<style type="text/css">
+			.mine-sweeper-cell { 
+				border: 1px solid;
+				border-color: #eeeeee #999999 #999999 #eeeeee;
+				background-color: #cccccc;
+				
+				float: left; 
+				width: 29px; 
+				height: 29px;  
+				text-align: center; 
+				line-height: 30px;
+			}
+			.mine-sweeper-row { 
+				clear: both; 
+				overflow: hidden; 
+			}
+			.mine-sweeper-table { 
+				border-left: 1px solid #999999; 
+				border-top: 1px solid #999999; 
+			}
+			.mine-sweeper-clicked {
+				background: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="minesweeper-ct"></div>
+		<a href="javascript:void(null);" onclick="MineSweeper.restart();">Restart</a>
+
+		<script type="text/javascript" src="minesweeper.js"></script>
+		<script type="text/javascript">
+			MineSweeper.draw({
+				container: 'minesweeper-ct',
+				grid: 5,
+				noOfBombs: 5
+			});
+		</script>
+
+	</body>
+</html>
