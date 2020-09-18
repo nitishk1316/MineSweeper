@@ -10,18 +10,6 @@ A Minesweeper game written in JavaScript, HTML and CSS.
 * Configurable number of mines
 
 
-## AUTHOR
---------
-
-[Nitish Kumar](http://www.nitishkumarsingh.com)
-
-
-## DEMO
---------
-
-[MineSweeper](http://www.nitishkumarsingh.com/MineSweeper/index.html)
-
-
 ## HOW TO USE
 ---------------
  
